@@ -1,0 +1,19 @@
+{
+  "dashboard": {
+    "username": "adilooq1@hotmail.fr",
+    "password": "A123456789*a",
+    "productName": "ADIDAS ORIGINAL"
+  },
+  "BDD_Data": [
+    {
+      "username": "adilooq1@hotmail.fr",
+      "password": "A123456789*a",
+      "productName": "ADIDAS ORIGINAL"
+    },
+    {
+      "username": "adilooq1@hotmail.fr",
+      "password": "A123456789*a",
+      "productName": "ZARA COAT 3"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "pw_udemy_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test",
+    "allureRep": "npx playwright test --grep @Web --reporter=line,allure-playwright",
+    "webTests": "npx playwright test --grep @Web",
+    "APITests": "npx playwright test --grep '@API'",
+    "safariNewConfig": "npx playwright test --config playwright.config1.js --project=safari",
+    "CucumberRegression": "npx cucumber-js --tags '@Regression' --retry 1 --format html:features/reporter/cucumber-report.html --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.9.3",
+    "allure-playwright": "^3.0.7"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.1.1",
+    "exceljs": "^4.4.0",
+    "typescript": "^5.7.2"
+  }
+}
